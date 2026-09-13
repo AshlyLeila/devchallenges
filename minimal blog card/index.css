@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Sora';
+    src: url('font/Sora-Light.ttf');
+}
+
+body{
+    background-color: FAFAF9;
+    color: #394150;
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+div.card{
+    width: 368px;
+    padding: 16px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 8px 6px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+
+img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+hr{
+   width: calc(100% + 40px);
+   margin-left: -20px;
+   background-color: #E5EAF0;
+   border: none;
+   height: 1px;
+}
+
+div.tag{
+    background-color: #F2EAFD;
+    color: #6221b1;
+    padding: 5px 8px;
+    margin-top: 5px;
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+
